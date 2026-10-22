@@ -1,0 +1,178 @@
+.jim-nightshade-regular {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jim Nightshade", cursive;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+fieldset {
+    border: none;
+    box-shadow: 0 5px 5px -4px gray;
+    background-color: white;
+}
+
+.form-container {
+    width: min(66%);
+    display: flex;
+    margin: 0 auto;
+}
+
+.form-right {
+    background-color: #F9FAFB;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 76%;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.input-form {
+    padding: 0 0 0 2rem;
+    gap: 100px;
+    width: 100%;
+}
+
+.flex-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 3rem;
+    row-gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.form-left {
+    background-image: url("./assets/background-img.png");
+    width: 74%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    position: flex;
+    bottom: 21%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 9rem auto;
+}
+
+.credits-container {
+    width: 100%;
+    color: white;
+    align-self: flex-end;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.credits-text {
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.img-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#logo-img {
+    width: 60px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 4rem;
+    line-height: 4rem;
+    align-self: center;
+}
+
+a {
+    color: #596D48;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 0.65rem;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    width: 9.5rem;
+    box-shadow: 2px 2px 2px -2px rgb(68, 68, 68);
+    border: none;
+}
+
+input {
+    border: #E5E7EB 1px solid;
+    border-radius: 2px;
+    height: 1.25rem;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+}
+
+input:focus {
+    border: blue 1px solid;
+    outline: none;
+    box-shadow: 2px 2px 2px -2px grey;
+}
+
+.submit-container {
+    margin-top: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+h1 {
+    padding: 1rem 0;
+}
+
+input[type="password"]:user-invalid {
+    border: red 1px solid;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.label-text {
+    font-size: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
